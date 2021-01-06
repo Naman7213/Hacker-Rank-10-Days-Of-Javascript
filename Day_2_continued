@@ -1,0 +1,9 @@
+function vowelsAndConsonants(s) {
+    var vowels= ["a","e","i","o","u"];
+    for (var v of s){
+        if(vowels.includes(v)){console.log(v)}
+    }   
+    for (var v of s){
+        if(!vowels.includes(v)){console.log(v)}
+    }
+}
